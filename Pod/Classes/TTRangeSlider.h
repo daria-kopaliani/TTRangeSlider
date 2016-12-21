@@ -12,6 +12,7 @@ IB_DESIGNABLE
 
 @property (nonatomic, weak) IBOutlet id<TTRangeSliderDelegate> delegate;
 
+@property (nonatomic, assign) float sidePadding;
 /**
  * The minimum possible value to select in the range
  */
